@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: white;
+    max-width: 80vw;
+    min-width: 60vw;
+    height: 70vh;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        input{
+            border: none;
+            margin-left: 20px;
+            font-size: 23px;
+            outline: none;
+        }
+
+    }
+
+    .double{
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+        justify-content: center;
+        .field{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        }
+        label{
+            font-size: 20px;
+
+        }
+        input{
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: 1px solid gray;
+
+        }
+       
+
+    #sec-double{
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        
+        button{
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow: auto;
+    padding: 10px;
+    width: 100%;
+    .item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        border-radius: 10px;
+        width: 100%;
+        padding: 5px;
+        img{
+            width: 60px;
+            cursor: pointer;
+        }
+        h2{
+            color: red;
+        }
+    }
+}
+.toplam-box{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    #toplam{
+        color: aqua;
+    }
+}
+
+.odendi{
+    opacity: 0.7;
+    h1{
+        text-decoration: line-through;
+    }
+    h2{
+        color: green !important;
+    }
+}
